@@ -1,0 +1,30 @@
+package com.example.materiallib.model;
+
+public record Material(
+        long id,
+        String name,
+        String category,
+        String family,
+        String grade,
+        String standardSystem,
+        String standardDesignation,
+        String uns,
+        String enNumber,
+        String tags,
+        String notes,
+        String sourceType,
+        String sourceName,
+        String confidence,
+        Double density,
+        Double youngsModulus,
+        Double poissonRatio,
+        Double yieldStrength,
+        Double ultimateStrength,
+        Double toughness,
+        Double thermalExpansion,
+        Double meltingPoint,
+        Double thermalConductivity,
+        String createdAt,
+        String updatedAt,
+        Long defaultConditionId
+) {}

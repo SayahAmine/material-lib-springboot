@@ -1,0 +1,651 @@
+id,condition_id,curve_type,x_label,y_label,x_unit,y_unit,test_temperature_c,strain_rate,frequency_hz,environment,standard,notes,created_at,updated_at
+1,1,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.333867,2026-02-02T18:45:01.333871
+2,1,creep,time,strain,s,-,540.5754897170065,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.333994,2026-02-02T18:45:01.334002
+3,2,stress_strain,strain,stress,-,Pa,23.0,0.0009502581494060395,,air,,Synthetic curve,2026-02-02T18:45:01.334400,2026-02-02T18:45:01.334410
+4,3,stress_strain,strain,stress,-,Pa,23.0,0.001993930698495202,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.334919,2026-02-02T18:45:01.334928
+5,3,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.335090,2026-02-02T18:45:01.335098
+6,4,stress_strain,strain,stress,-,Pa,23.0,0.0020975056628081508,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.335431,2026-02-02T18:45:01.335440
+7,4,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.335624,2026-02-02T18:45:01.335631
+8,5,stress_strain,strain,stress,-,Pa,23.0,0.002979479136450753,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.336032,2026-02-02T18:45:01.336040
+9,6,stress_strain,strain,stress,-,Pa,23.0,0.009680084099363072,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.336420,2026-02-02T18:45:01.336424
+10,7,stress_strain,strain,stress,-,Pa,23.0,0.008991857327886998,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.338095,2026-02-02T18:45:01.338107
+11,8,stress_strain,strain,stress,-,Pa,23.0,0.008674660551248596,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.338577,2026-02-02T18:45:01.338581
+12,8,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.338684,2026-02-02T18:45:01.338687
+13,8,creep,time,strain,s,-,609.8319195919239,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.338765,2026-02-02T18:45:01.338771
+14,9,stress_strain,strain,stress,-,Pa,23.0,0.003785442790125662,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.339035,2026-02-02T18:45:01.339044
+15,9,creep,time,strain,s,-,687.3082399131054,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.339193,2026-02-02T18:45:01.339197
+16,10,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.339467,2026-02-02T18:45:01.339472
+17,10,creep,time,strain,s,-,606.6654802606927,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.339527,2026-02-02T18:45:01.339530
+18,10,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.339581,2026-02-02T18:45:01.339584
+19,11,stress_strain,strain,stress,-,Pa,23.0,0.009825857946659538,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.339781,2026-02-02T18:45:01.339785
+20,11,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.339902,2026-02-02T18:45:01.339905
+21,12,stress_strain,strain,stress,-,Pa,23.0,0.004342083406979612,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.340120,2026-02-02T18:45:01.340123
+22,12,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.340224,2026-02-02T18:45:01.340226
+23,12,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.340279,2026-02-02T18:45:01.340282
+24,13,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.340443,2026-02-02T18:45:01.340450
+25,14,stress_strain,strain,stress,-,Pa,23.0,0.007526823050153903,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.340823,2026-02-02T18:45:01.340831
+26,14,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.341014,2026-02-02T18:45:01.341021
+27,15,stress_strain,strain,stress,-,Pa,23.0,0.0029337081885335748,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.341377,2026-02-02T18:45:01.341383
+28,15,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.341482,2026-02-02T18:45:01.341484
+29,15,creep,time,strain,s,-,704.3341441666125,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.341536,2026-02-02T18:45:01.341539
+30,16,stress_strain,strain,stress,-,Pa,23.0,0.002087770171443142,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.341746,2026-02-02T18:45:01.341750
+31,17,stress_strain,strain,stress,-,Pa,23.0,0.0026398319035236067,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.342014,2026-02-02T18:45:01.342017
+32,17,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.366345,2026-02-02T18:45:01.366377
+33,17,creep,time,strain,s,-,419.104538612532,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.366505,2026-02-02T18:45:01.366513
+34,17,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.366629,2026-02-02T18:45:01.366637
+35,18,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.367085,2026-02-02T18:45:01.367097
+36,19,stress_strain,strain,stress,-,Pa,23.0,0.00046759493302726786,,air,,Synthetic curve,2026-02-02T18:45:01.367569,2026-02-02T18:45:01.367578
+37,20,stress_strain,strain,stress,-,Pa,23.0,0.0030335220623172003,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.367951,2026-02-02T18:45:01.367956
+38,20,creep,time,strain,s,-,104.3155607612158,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.368131,2026-02-02T18:45:01.368140
+39,20,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.368233,2026-02-02T18:45:01.368241
+40,21,stress_strain,strain,stress,-,Pa,23.0,0.0006697899319464661,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.368566,2026-02-02T18:45:01.368573
+41,22,stress_strain,strain,stress,-,Pa,23.0,0.006388574518468294,,air,,Synthetic curve,2026-02-02T18:45:01.369757,2026-02-02T18:45:01.369767
+42,22,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.369880,2026-02-02T18:45:01.369883
+43,23,stress_strain,strain,stress,-,Pa,23.0,0.007803242189626132,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.370284,2026-02-02T18:45:01.370291
+44,23,creep,time,strain,s,-,128.27695622829646,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.370392,2026-02-02T18:45:01.370395
+45,24,stress_strain,strain,stress,-,Pa,23.0,0.0028024312866141523,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.370666,2026-02-02T18:45:01.370674
+46,24,creep,time,strain,s,-,150.87470460014202,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.370858,2026-02-02T18:45:01.370865
+47,24,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.370958,2026-02-02T18:45:01.370964
+48,25,stress_strain,strain,stress,-,Pa,23.0,0.00501633736017264,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.371294,2026-02-02T18:45:01.371298
+49,25,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.371423,2026-02-02T18:45:01.371429
+50,26,stress_strain,strain,stress,-,Pa,23.0,0.0027846233815026346,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.371708,2026-02-02T18:45:01.371716
+51,26,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.371854,2026-02-02T18:45:01.371858
+52,27,stress_strain,strain,stress,-,Pa,23.0,0.0009622749616253052,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.372086,2026-02-02T18:45:01.372090
+53,27,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.372208,2026-02-02T18:45:01.372214
+54,28,stress_strain,strain,stress,-,Pa,23.0,0.007201281995200734,,air,,Synthetic curve,2026-02-02T18:45:01.372643,2026-02-02T18:45:01.372650
+55,29,stress_strain,strain,stress,-,Pa,23.0,0.006700441866291863,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.372975,2026-02-02T18:45:01.372989
+56,29,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.373095,2026-02-02T18:45:01.373097
+57,30,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.373328,2026-02-02T18:45:01.373336
+58,31,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.373576,2026-02-02T18:45:01.373580
+59,32,stress_strain,strain,stress,-,Pa,23.0,0.008471962402615598,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.373820,2026-02-02T18:45:01.373823
+60,32,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.373895,2026-02-02T18:45:01.373897
+61,33,stress_strain,strain,stress,-,Pa,23.0,0.00025497019529176034,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.374182,2026-02-02T18:45:01.374191
+62,33,creep,time,strain,s,-,663.7131425620073,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.374326,2026-02-02T18:45:01.374331
+63,33,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.374378,2026-02-02T18:45:01.374386
+64,34,stress_strain,strain,stress,-,Pa,23.0,0.006330645963483326,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.374641,2026-02-02T18:45:01.374644
+65,34,creep,time,strain,s,-,77.45355298007551,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.374756,2026-02-02T18:45:01.374761
+66,34,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.374812,2026-02-02T18:45:01.374815
+67,35,stress_strain,strain,stress,-,Pa,23.0,0.007239780044802907,,air,,Synthetic curve,2026-02-02T18:45:01.375023,2026-02-02T18:45:01.375027
+68,36,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.375430,2026-02-02T18:45:01.375438
+69,38,stress_strain,strain,stress,-,Pa,23.0,0.006060911163739375,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.375956,2026-02-02T18:45:01.375959
+70,38,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.376051,2026-02-02T18:45:01.376053
+71,38,creep,time,strain,s,-,714.1338584314924,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.376105,2026-02-02T18:45:01.376108
+72,39,stress_strain,strain,stress,-,Pa,23.0,0.00922729553236107,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.376264,2026-02-02T18:45:01.376267
+73,39,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.376356,2026-02-02T18:45:01.376359
+74,41,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.376726,2026-02-02T18:45:01.376732
+75,42,stress_strain,strain,stress,-,Pa,23.0,0.009882972538281048,,air,,Synthetic curve,2026-02-02T18:45:01.376920,2026-02-02T18:45:01.376924
+76,42,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.377087,2026-02-02T18:45:01.377093
+77,43,stress_strain,strain,stress,-,Pa,23.0,0.0058235999938216374,,air,,Synthetic curve,2026-02-02T18:45:01.377337,2026-02-02T18:45:01.377342
+78,43,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.377456,2026-02-02T18:45:01.377459
+79,44,stress_strain,strain,stress,-,Pa,23.0,0.008519007111782998,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.377734,2026-02-02T18:45:01.377738
+80,44,creep,time,strain,s,-,635.8983184825985,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.377886,2026-02-02T18:45:01.377893
+81,44,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.377947,2026-02-02T18:45:01.377950
+82,46,stress_strain,strain,stress,-,Pa,23.0,0.0016254775547097807,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.378432,2026-02-02T18:45:01.378438
+83,46,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.378539,2026-02-02T18:45:01.378542
+84,46,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.378593,2026-02-02T18:45:01.378595
+85,47,stress_strain,strain,stress,-,Pa,23.0,0.006497907232858264,,air,,Synthetic curve,2026-02-02T18:45:01.378794,2026-02-02T18:45:01.378797
+86,47,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.378920,2026-02-02T18:45:01.378924
+87,48,stress_strain,strain,stress,-,Pa,23.0,0.006727715220675605,,air,,Synthetic curve,2026-02-02T18:45:01.379166,2026-02-02T18:45:01.379169
+88,48,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.379292,2026-02-02T18:45:01.379295
+89,49,stress_strain,strain,stress,-,Pa,23.0,0.00021921647463458968,,air,,Synthetic curve,2026-02-02T18:45:01.379443,2026-02-02T18:45:01.379447
+90,50,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.379746,2026-02-02T18:45:01.379749
+91,50,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.379801,2026-02-02T18:45:01.379804
+92,51,stress_strain,strain,stress,-,Pa,23.0,0.004169945301946837,,air,,Synthetic curve,2026-02-02T18:45:01.380006,2026-02-02T18:45:01.380010
+93,52,stress_strain,strain,stress,-,Pa,23.0,0.004501923321463557,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.380273,2026-02-02T18:45:01.380276
+94,52,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.380374,2026-02-02T18:45:01.380376
+95,52,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.380425,2026-02-02T18:45:01.380427
+96,53,stress_strain,strain,stress,-,Pa,23.0,0.005990637158159372,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.380642,2026-02-02T18:45:01.380647
+97,53,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.380742,2026-02-02T18:45:01.380745
+98,53,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.380795,2026-02-02T18:45:01.380798
+99,54,stress_strain,strain,stress,-,Pa,23.0,0.00043575976889253463,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.380935,2026-02-02T18:45:01.380938
+100,54,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.381037,2026-02-02T18:45:01.381039
+101,55,stress_strain,strain,stress,-,Pa,23.0,0.007087460016289556,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.381313,2026-02-02T18:45:01.381316
+102,55,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.381476,2026-02-02T18:45:01.381482
+103,56,stress_strain,strain,stress,-,Pa,23.0,0.007357120560903193,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.381752,2026-02-02T18:45:01.381757
+104,56,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.381877,2026-02-02T18:45:01.381882
+105,57,stress_strain,strain,stress,-,Pa,23.0,0.009305236516198372,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.382071,2026-02-02T18:45:01.382074
+106,57,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.382221,2026-02-02T18:45:01.382226
+107,58,stress_strain,strain,stress,-,Pa,23.0,0.0016871125210863667,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.382493,2026-02-02T18:45:01.382497
+108,59,stress_strain,strain,stress,-,Pa,23.0,0.0007985985825177888,,air,,Synthetic curve,2026-02-02T18:45:01.382751,2026-02-02T18:45:01.382754
+109,60,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.383017,2026-02-02T18:45:01.383023
+110,61,stress_strain,strain,stress,-,Pa,23.0,0.0005911817512445739,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.383291,2026-02-02T18:45:01.383294
+111,61,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.383456,2026-02-02T18:45:01.383463
+112,62,stress_strain,strain,stress,-,Pa,23.0,0.008030356397336888,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.383763,2026-02-02T18:45:01.383767
+113,63,stress_strain,strain,stress,-,Pa,23.0,0.007313478521738986,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.384061,2026-02-02T18:45:01.384064
+114,64,stress_strain,strain,stress,-,Pa,23.0,0.0038100872766258487,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.384253,2026-02-02T18:45:01.384256
+115,64,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.384351,2026-02-02T18:45:01.384353
+116,65,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.384614,2026-02-02T18:45:01.384619
+117,66,stress_strain,strain,stress,-,Pa,23.0,0.005160429712018913,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.384907,2026-02-02T18:45:01.384917
+118,66,creep,time,strain,s,-,73.06901224282365,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.385098,2026-02-02T18:45:01.385103
+119,67,stress_strain,strain,stress,-,Pa,23.0,0.009164789900204992,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.385355,2026-02-02T18:45:01.385360
+120,68,stress_strain,strain,stress,-,Pa,23.0,0.007068474342492047,,air,,Synthetic curve,2026-02-02T18:45:01.385593,2026-02-02T18:45:01.385596
+121,69,stress_strain,strain,stress,-,Pa,23.0,0.00840050251860103,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.385870,2026-02-02T18:45:01.385875
+122,69,creep,time,strain,s,-,81.95689370729738,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.385973,2026-02-02T18:45:01.385975
+123,70,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.386226,2026-02-02T18:45:01.386232
+124,71,stress_strain,strain,stress,-,Pa,23.0,0.009807718264368598,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.386398,2026-02-02T18:45:01.386402
+125,71,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.386493,2026-02-02T18:45:01.386496
+126,71,creep,time,strain,s,-,722.5326040349632,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.386544,2026-02-02T18:45:01.386547
+127,72,creep,time,strain,s,-,87.10403391949971,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.386779,2026-02-02T18:45:01.386783
+128,73,stress_strain,strain,stress,-,Pa,23.0,0.0029810788795522113,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.387020,2026-02-02T18:45:01.387024
+129,73,creep,time,strain,s,-,151.64667216396026,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.387182,2026-02-02T18:45:01.387189
+130,74,stress_strain,strain,stress,-,Pa,23.0,0.008289691255991927,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.387461,2026-02-02T18:45:01.387468
+131,75,stress_strain,strain,stress,-,Pa,23.0,0.0006159404495262971,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.388364,2026-02-02T18:45:01.388374
+132,75,creep,time,strain,s,-,94.48899190469992,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.388518,2026-02-02T18:45:01.388525
+133,76,stress_strain,strain,stress,-,Pa,23.0,0.001080750709214282,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.388788,2026-02-02T18:45:01.388792
+134,76,creep,time,strain,s,-,80.41506209505853,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.388962,2026-02-02T18:45:01.388970
+135,77,stress_strain,strain,stress,-,Pa,23.0,0.004043752931562363,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.389264,2026-02-02T18:45:01.389272
+136,78,stress_strain,strain,stress,-,Pa,23.0,0.0015060876448381904,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.389567,2026-02-02T18:45:01.389570
+137,79,stress_strain,strain,stress,-,Pa,23.0,0.001081000558299751,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.389762,2026-02-02T18:45:01.389765
+138,79,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.389863,2026-02-02T18:45:01.389865
+139,80,stress_strain,strain,stress,-,Pa,23.0,0.005347895714002632,,air,,Synthetic curve,2026-02-02T18:45:01.390060,2026-02-02T18:45:01.390064
+140,81,stress_strain,strain,stress,-,Pa,23.0,0.008197075372103485,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.390400,2026-02-02T18:45:01.390407
+141,81,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.390574,2026-02-02T18:45:01.390580
+142,82,stress_strain,strain,stress,-,Pa,23.0,0.0022474583519379696,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.390848,2026-02-02T18:45:01.390856
+143,82,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.391030,2026-02-02T18:45:01.391036
+144,82,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.391155,2026-02-02T18:45:01.391160
+145,83,stress_strain,strain,stress,-,Pa,23.0,0.006841061697072061,,air,,Synthetic curve,2026-02-02T18:45:01.391480,2026-02-02T18:45:01.391487
+146,84,stress_strain,strain,stress,-,Pa,23.0,0.001017350073867132,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.391870,2026-02-02T18:45:01.391876
+147,84,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.392067,2026-02-02T18:45:01.392072
+148,84,creep,time,strain,s,-,731.256699172675,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.392172,2026-02-02T18:45:01.392177
+149,85,stress_strain,strain,stress,-,Pa,23.0,0.0035114603251546373,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.392516,2026-02-02T18:45:01.392522
+150,85,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.392701,2026-02-02T18:45:01.392706
+151,85,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.392799,2026-02-02T18:45:01.392805
+152,86,stress_strain,strain,stress,-,Pa,23.0,0.009667384750017596,,air,,Synthetic curve,2026-02-02T18:45:01.393211,2026-02-02T18:45:01.393218
+153,86,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.393387,2026-02-02T18:45:01.393392
+154,87,stress_strain,strain,stress,-,Pa,23.0,0.00018579895423543702,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.393785,2026-02-02T18:45:01.393790
+155,87,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.394045,2026-02-02T18:45:01.394055
+156,87,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.394176,2026-02-02T18:45:01.394183
+157,88,stress_strain,strain,stress,-,Pa,23.0,0.008029362823024319,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.394500,2026-02-02T18:45:01.394507
+158,88,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.394667,2026-02-02T18:45:01.394673
+159,88,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.394763,2026-02-02T18:45:01.394768
+160,89,stress_strain,strain,stress,-,Pa,23.0,0.0025833251438361843,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.395067,2026-02-02T18:45:01.395074
+161,89,creep,time,strain,s,-,153.94657281375453,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.395241,2026-02-02T18:45:01.395247
+162,90,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.395577,2026-02-02T18:45:01.395583
+163,91,stress_strain,strain,stress,-,Pa,23.0,0.006235561413610311,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.395859,2026-02-02T18:45:01.395866
+164,91,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.395992,2026-02-02T18:45:01.395996
+165,92,stress_strain,strain,stress,-,Pa,23.0,0.0013642830886340536,,air,,Synthetic curve,2026-02-02T18:45:01.396255,2026-02-02T18:45:01.396260
+166,92,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.396361,2026-02-02T18:45:01.396364
+167,93,stress_strain,strain,stress,-,Pa,23.0,0.0025565684561283403,,air,,Synthetic curve,2026-02-02T18:45:01.396504,2026-02-02T18:45:01.396507
+168,94,stress_strain,strain,stress,-,Pa,23.0,0.005896252443582375,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.396734,2026-02-02T18:45:01.396739
+169,95,stress_strain,strain,stress,-,Pa,23.0,0.00175002162304034,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.397213,2026-02-02T18:45:01.397221
+170,96,stress_strain,strain,stress,-,Pa,23.0,0.005469712144071131,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.397510,2026-02-02T18:45:01.397513
+171,96,creep,time,strain,s,-,128.7141945985531,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.397612,2026-02-02T18:45:01.397615
+172,97,stress_strain,strain,stress,-,Pa,23.0,0.0012239056538503957,,air,,Synthetic curve,2026-02-02T18:45:01.397829,2026-02-02T18:45:01.397834
+173,98,creep,time,strain,s,-,404.8510245862787,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.398096,2026-02-02T18:45:01.398099
+174,99,creep,time,strain,s,-,605.7428699789958,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.398387,2026-02-02T18:45:01.398390
+175,100,stress_strain,strain,stress,-,Pa,23.0,0.004991445745168843,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.398577,2026-02-02T18:45:01.398580
+176,101,stress_strain,strain,stress,-,Pa,23.0,0.008089417519558825,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.398827,2026-02-02T18:45:01.398831
+177,101,creep,time,strain,s,-,103.2915740194417,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.398999,2026-02-02T18:45:01.399007
+178,102,creep,time,strain,s,-,151.8431412156338,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.399323,2026-02-02T18:45:01.399329
+179,103,stress_strain,strain,stress,-,Pa,23.0,0.0044658015093451565,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.399470,2026-02-02T18:45:01.399473
+180,104,stress_strain,strain,stress,-,Pa,23.0,0.006658859414170652,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.399831,2026-02-02T18:45:01.399841
+181,104,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.399960,2026-02-02T18:45:01.399963
+182,105,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.400166,2026-02-02T18:45:01.400169
+183,106,stress_strain,strain,stress,-,Pa,23.0,0.008288651641024972,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.400309,2026-02-02T18:45:01.400312
+184,107,stress_strain,strain,stress,-,Pa,23.0,0.0008542791599899254,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.400568,2026-02-02T18:45:01.400571
+185,107,creep,time,strain,s,-,134.33509428045036,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.400666,2026-02-02T18:45:01.400669
+186,108,stress_strain,strain,stress,-,Pa,23.0,0.004481455444436863,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.400849,2026-02-02T18:45:01.400852
+187,109,stress_strain,strain,stress,-,Pa,23.0,0.009472999575122716,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.401073,2026-02-02T18:45:01.401076
+188,109,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.401170,2026-02-02T18:45:01.401173
+189,110,stress_strain,strain,stress,-,Pa,23.0,0.007891636268413287,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.401298,2026-02-02T18:45:01.401301
+190,110,creep,time,strain,s,-,99.27879441530929,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.401396,2026-02-02T18:45:01.401398
+191,110,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.401441,2026-02-02T18:45:01.401444
+192,111,stress_strain,strain,stress,-,Pa,23.0,0.009817678868172659,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.401642,2026-02-02T18:45:01.401646
+193,111,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.401742,2026-02-02T18:45:01.401745
+194,112,stress_strain,strain,stress,-,Pa,23.0,0.0035286138432600736,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.401914,2026-02-02T18:45:01.401917
+195,114,stress_strain,strain,stress,-,Pa,23.0,0.0033374066374227125,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.402329,2026-02-02T18:45:01.402333
+196,114,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.402426,2026-02-02T18:45:01.402428
+197,114,creep,time,strain,s,-,569.6184149199778,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.402478,2026-02-02T18:45:01.402480
+198,115,stress_strain,strain,stress,-,Pa,23.0,0.0034570720100999368,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.402770,2026-02-02T18:45:01.402776
+199,115,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.402877,2026-02-02T18:45:01.402879
+200,116,stress_strain,strain,stress,-,Pa,23.0,0.008517273323257203,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.403044,2026-02-02T18:45:01.403047
+201,116,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.403137,2026-02-02T18:45:01.403139
+202,116,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.403191,2026-02-02T18:45:01.403193
+203,117,stress_strain,strain,stress,-,Pa,23.0,0.009357948579353277,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.403374,2026-02-02T18:45:01.403376
+204,118,creep,time,strain,s,-,143.02655347982432,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.403565,2026-02-02T18:45:01.403569
+205,118,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.403614,2026-02-02T18:45:01.403617
+206,119,creep,time,strain,s,-,133.26223100224104,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.403819,2026-02-02T18:45:01.403823
+207,120,stress_strain,strain,stress,-,Pa,23.0,0.004942635712178168,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.404011,2026-02-02T18:45:01.404014
+208,120,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.404112,2026-02-02T18:45:01.404114
+209,120,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.404162,2026-02-02T18:45:01.404164
+210,121,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.404372,2026-02-02T18:45:01.404385
+211,122,stress_strain,strain,stress,-,Pa,23.0,0.0031674873130169774,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.404649,2026-02-02T18:45:01.404653
+212,122,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.404750,2026-02-02T18:45:01.404752
+213,123,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.404927,2026-02-02T18:45:01.404931
+214,123,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.404994,2026-02-02T18:45:01.404998
+215,125,stress_strain,strain,stress,-,Pa,23.0,0.009265164214312466,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.405384,2026-02-02T18:45:01.405387
+216,126,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.405625,2026-02-02T18:45:01.405628
+217,127,stress_strain,strain,stress,-,Pa,23.0,0.009669582590031353,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.405834,2026-02-02T18:45:01.405838
+218,127,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.405947,2026-02-02T18:45:01.405952
+219,128,stress_strain,strain,stress,-,Pa,23.0,0.0043989934423978175,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.406260,2026-02-02T18:45:01.406265
+220,129,stress_strain,strain,stress,-,Pa,23.0,0.0021767130247099804,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.406484,2026-02-02T18:45:01.406487
+221,130,stress_strain,strain,stress,-,Pa,23.0,0.008747491819118965,,air,,Synthetic curve,2026-02-02T18:45:01.406712,2026-02-02T18:45:01.406715
+222,130,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.406802,2026-02-02T18:45:01.406804
+223,131,stress_strain,strain,stress,-,Pa,23.0,0.0005109066934955671,,air,,Synthetic curve,2026-02-02T18:45:01.406925,2026-02-02T18:45:01.406928
+224,132,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.407206,2026-02-02T18:45:01.407211
+225,133,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.407407,2026-02-02T18:45:01.407410
+226,134,stress_strain,strain,stress,-,Pa,23.0,0.009648590208952172,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.407592,2026-02-02T18:45:01.407595
+227,134,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.407690,2026-02-02T18:45:01.407692
+228,135,stress_strain,strain,stress,-,Pa,23.0,0.0030538407236201147,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.407864,2026-02-02T18:45:01.407867
+229,136,stress_strain,strain,stress,-,Pa,23.0,0.007196916572059699,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.408095,2026-02-02T18:45:01.408098
+230,136,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.408236,2026-02-02T18:45:01.408241
+231,136,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.408296,2026-02-02T18:45:01.408299
+232,138,stress_strain,strain,stress,-,Pa,23.0,0.007755517609282774,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.408621,2026-02-02T18:45:01.408624
+233,138,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.408720,2026-02-02T18:45:01.408723
+234,139,stress_strain,strain,stress,-,Pa,23.0,0.008952456238765264,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.408910,2026-02-02T18:45:01.408913
+235,139,creep,time,strain,s,-,67.70155589260418,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.409005,2026-02-02T18:45:01.409008
+236,139,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.409052,2026-02-02T18:45:01.409055
+237,140,stress_strain,strain,stress,-,Pa,23.0,0.0027183534112451206,,air,,Synthetic curve,2026-02-02T18:45:01.409229,2026-02-02T18:45:01.409232
+238,141,stress_strain,strain,stress,-,Pa,23.0,0.0076366339919182,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.409876,2026-02-02T18:45:01.409886
+239,141,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.410116,2026-02-02T18:45:01.410125
+240,141,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.410246,2026-02-02T18:45:01.410255
+241,142,stress_strain,strain,stress,-,Pa,23.0,0.008367084628274611,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.410518,2026-02-02T18:45:01.410522
+242,142,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.414206,2026-02-02T18:45:01.414223
+243,142,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.414328,2026-02-02T18:45:01.414336
+244,143,stress_strain,strain,stress,-,Pa,23.0,0.0010145138454277522,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.414605,2026-02-02T18:45:01.414608
+245,144,stress_strain,strain,stress,-,Pa,23.0,0.009700619760328657,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.414826,2026-02-02T18:45:01.414829
+246,144,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.414921,2026-02-02T18:45:01.414924
+247,144,creep,time,strain,s,-,601.8466181371156,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.414971,2026-02-02T18:45:01.414973
+248,145,creep,time,strain,s,-,157.4226045352803,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.415159,2026-02-02T18:45:01.415162
+249,146,stress_strain,strain,stress,-,Pa,23.0,0.004622795486919618,,air,,Synthetic curve,2026-02-02T18:45:01.415434,2026-02-02T18:45:01.415440
+250,147,stress_strain,strain,stress,-,Pa,23.0,0.0029140757409050165,,air,,Synthetic curve,2026-02-02T18:45:01.415635,2026-02-02T18:45:01.415639
+251,147,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.415729,2026-02-02T18:45:01.415732
+252,150,stress_strain,strain,stress,-,Pa,23.0,0.0011816617764583155,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.416227,2026-02-02T18:45:01.416230
+253,153,stress_strain,strain,stress,-,Pa,23.0,0.007275652798163121,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.416775,2026-02-02T18:45:01.416779
+254,154,stress_strain,strain,stress,-,Pa,23.0,0.00029912176825117173,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.417021,2026-02-02T18:45:01.417024
+255,154,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.417118,2026-02-02T18:45:01.417120
+256,155,stress_strain,strain,stress,-,Pa,23.0,0.00575696840345153,,air,,Synthetic curve,2026-02-02T18:45:01.417470,2026-02-02T18:45:01.417475
+257,157,stress_strain,strain,stress,-,Pa,23.0,0.009495753661119863,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.417984,2026-02-02T18:45:01.417988
+258,157,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.418456,2026-02-02T18:45:01.418467
+259,158,stress_strain,strain,stress,-,Pa,23.0,0.00810887532507499,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.418845,2026-02-02T18:45:01.418849
+260,158,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.418950,2026-02-02T18:45:01.418953
+261,158,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.419047,2026-02-02T18:45:01.419055
+262,159,stress_strain,strain,stress,-,Pa,23.0,0.0010593913758170559,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.419378,2026-02-02T18:45:01.419383
+263,159,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.419815,2026-02-02T18:45:01.419823
+264,160,stress_strain,strain,stress,-,Pa,23.0,0.0015126903377363178,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.420129,2026-02-02T18:45:01.420134
+265,160,creep,time,strain,s,-,156.86205294944816,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.420276,2026-02-02T18:45:01.420283
+266,160,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.420333,2026-02-02T18:45:01.420336
+267,161,stress_strain,strain,stress,-,Pa,23.0,0.0006961162065430646,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.420559,2026-02-02T18:45:01.420565
+268,161,creep,time,strain,s,-,661.2648248739442,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.420688,2026-02-02T18:45:01.420692
+269,162,stress_strain,strain,stress,-,Pa,23.0,0.006171695272950993,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.420962,2026-02-02T18:45:01.420967
+270,163,stress_strain,strain,stress,-,Pa,23.0,0.005297231873234736,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.421338,2026-02-02T18:45:01.421344
+271,163,creep,time,strain,s,-,504.3562274082764,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.421476,2026-02-02T18:45:01.421479
+272,164,stress_strain,strain,stress,-,Pa,23.0,0.008391519907838822,,air,,Synthetic curve,2026-02-02T18:45:01.421752,2026-02-02T18:45:01.421757
+273,164,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.421850,2026-02-02T18:45:01.421853
+274,165,stress_strain,strain,stress,-,Pa,23.0,0.0032755602964683415,,air,,Synthetic curve,2026-02-02T18:45:01.422070,2026-02-02T18:45:01.422074
+275,166,stress_strain,strain,stress,-,Pa,23.0,0.007835011160698513,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.422409,2026-02-02T18:45:01.422414
+276,166,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.422547,2026-02-02T18:45:01.422550
+277,166,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.422601,2026-02-02T18:45:01.422603
+278,167,stress_strain,strain,stress,-,Pa,23.0,0.008959922531427028,,air,,Synthetic curve,2026-02-02T18:45:01.422830,2026-02-02T18:45:01.422835
+279,168,stress_strain,strain,stress,-,Pa,23.0,0.004301054713961152,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.423129,2026-02-02T18:45:01.423135
+280,168,creep,time,strain,s,-,738.3555991801968,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.423226,2026-02-02T18:45:01.423229
+281,169,stress_strain,strain,stress,-,Pa,23.0,0.006757219750171395,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.423466,2026-02-02T18:45:01.423470
+282,169,creep,time,strain,s,-,69.9706984522657,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.423569,2026-02-02T18:45:01.423571
+283,169,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.423617,2026-02-02T18:45:01.423667
+284,170,stress_strain,strain,stress,-,Pa,23.0,0.00793762092603834,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.423851,2026-02-02T18:45:01.423855
+285,171,stress_strain,strain,stress,-,Pa,23.0,0.009514367416431573,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.424130,2026-02-02T18:45:01.424135
+286,172,stress_strain,strain,stress,-,Pa,23.0,0.006160429115205003,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.424414,2026-02-02T18:45:01.424418
+287,173,stress_strain,strain,stress,-,Pa,23.0,0.006811390840848968,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.424826,2026-02-02T18:45:01.424850
+288,173,creep,time,strain,s,-,94.74423045297077,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.424994,2026-02-02T18:45:01.424998
+289,174,stress_strain,strain,stress,-,Pa,23.0,0.006599251565504929,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.425925,2026-02-02T18:45:01.425936
+290,174,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.426109,2026-02-02T18:45:01.426116
+291,175,stress_strain,strain,stress,-,Pa,23.0,0.008303532331852895,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.426608,2026-02-02T18:45:01.426617
+292,175,creep,time,strain,s,-,94.4467823178056,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.426765,2026-02-02T18:45:01.426772
+293,177,stress_strain,strain,stress,-,Pa,23.0,0.008393728042011495,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.427340,2026-02-02T18:45:01.427344
+294,177,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.427467,2026-02-02T18:45:01.427471
+295,178,stress_strain,strain,stress,-,Pa,23.0,0.008328723291281188,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.427677,2026-02-02T18:45:01.427680
+296,179,stress_strain,strain,stress,-,Pa,23.0,0.007952641717162803,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.427958,2026-02-02T18:45:01.427962
+297,180,stress_strain,strain,stress,-,Pa,23.0,0.006213517093938658,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.428235,2026-02-02T18:45:01.428238
+298,181,stress_strain,strain,stress,-,Pa,23.0,0.008560009114975056,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.428497,2026-02-02T18:45:01.428507
+299,181,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.428631,2026-02-02T18:45:01.428635
+300,181,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.428683,2026-02-02T18:45:01.428686
+301,182,stress_strain,strain,stress,-,Pa,23.0,0.003639112646135539,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.428948,2026-02-02T18:45:01.428954
+302,182,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.429053,2026-02-02T18:45:01.429055
+303,183,stress_strain,strain,stress,-,Pa,23.0,0.009969686143207193,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.429252,2026-02-02T18:45:01.429255
+304,183,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.429378,2026-02-02T18:45:01.429382
+305,184,stress_strain,strain,stress,-,Pa,23.0,0.0009444633820622658,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.429582,2026-02-02T18:45:01.429588
+306,184,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.429734,2026-02-02T18:45:01.429738
+307,184,creep,time,strain,s,-,510.8180208818612,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.429794,2026-02-02T18:45:01.429796
+308,185,stress_strain,strain,stress,-,Pa,23.0,0.006416183975625061,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.429954,2026-02-02T18:45:01.429957
+309,185,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.430160,2026-02-02T18:45:01.430169
+310,187,stress_strain,strain,stress,-,Pa,23.0,0.0061195987672803724,,air,,Synthetic curve,2026-02-02T18:45:01.430491,2026-02-02T18:45:01.430494
+311,187,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.430545,2026-02-02T18:45:01.430547
+312,188,stress_strain,strain,stress,-,Pa,23.0,0.00410697290770633,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.430736,2026-02-02T18:45:01.430740
+313,188,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.430854,2026-02-02T18:45:01.430858
+314,190,stress_strain,strain,stress,-,Pa,23.0,0.006673855509090867,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.431243,2026-02-02T18:45:01.431247
+315,191,stress_strain,strain,stress,-,Pa,23.0,0.004180611021099297,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.431514,2026-02-02T18:45:01.431518
+316,191,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.431610,2026-02-02T18:45:01.431612
+317,192,stress_strain,strain,stress,-,Pa,23.0,0.0035207275091040852,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.431831,2026-02-02T18:45:01.431837
+318,192,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.431956,2026-02-02T18:45:01.431959
+319,193,stress_strain,strain,stress,-,Pa,23.0,0.006793568385719099,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.432165,2026-02-02T18:45:01.432169
+320,194,stress_strain,strain,stress,-,Pa,23.0,0.003946682353733352,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.432504,2026-02-02T18:45:01.432508
+321,195,stress_strain,strain,stress,-,Pa,23.0,0.006562765630246798,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.432778,2026-02-02T18:45:01.432785
+322,196,stress_strain,strain,stress,-,Pa,23.0,0.007142853065697492,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.433147,2026-02-02T18:45:01.433150
+323,197,stress_strain,strain,stress,-,Pa,23.0,0.007746429894333374,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.433480,2026-02-02T18:45:01.433483
+324,198,stress_strain,strain,stress,-,Pa,23.0,0.003935590515521525,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.433831,2026-02-02T18:45:01.433834
+325,198,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.433970,2026-02-02T18:45:01.433975
+326,198,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.434028,2026-02-02T18:45:01.434031
+327,199,stress_strain,strain,stress,-,Pa,23.0,0.009540728928605835,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.434248,2026-02-02T18:45:01.434255
+328,199,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.434373,2026-02-02T18:45:01.434377
+329,200,stress_strain,strain,stress,-,Pa,23.0,0.007711611373943329,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.434935,2026-02-02T18:45:01.434943
+330,200,creep,time,strain,s,-,94.30247461744341,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.435094,2026-02-02T18:45:01.435099
+331,201,stress_strain,strain,stress,-,Pa,23.0,0.0027319458564328764,,air,,Synthetic curve,2026-02-02T18:45:01.435408,2026-02-02T18:45:01.435413
+332,202,stress_strain,strain,stress,-,Pa,23.0,0.008339174483608767,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.435699,2026-02-02T18:45:01.435702
+333,202,creep,time,strain,s,-,675.5325187894803,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.435798,2026-02-02T18:45:01.435801
+334,203,stress_strain,strain,stress,-,Pa,23.0,0.001622747794457082,,air,,Synthetic curve,2026-02-02T18:45:01.436062,2026-02-02T18:45:01.436066
+335,203,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.436247,2026-02-02T18:45:01.436254
+336,204,stress_strain,strain,stress,-,Pa,23.0,0.007390094126137752,,air,,Synthetic curve,2026-02-02T18:45:01.436461,2026-02-02T18:45:01.436466
+337,205,stress_strain,strain,stress,-,Pa,23.0,0.008855879127168039,,air,,Synthetic curve,2026-02-02T18:45:01.436818,2026-02-02T18:45:01.436824
+338,206,stress_strain,strain,stress,-,Pa,23.0,0.007131029786984927,,air,,Synthetic curve,2026-02-02T18:45:01.437092,2026-02-02T18:45:01.437096
+339,206,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.437195,2026-02-02T18:45:01.437200
+340,207,stress_strain,strain,stress,-,Pa,23.0,0.004160653178181435,,air,,Synthetic curve,2026-02-02T18:45:01.437405,2026-02-02T18:45:01.437411
+341,208,stress_strain,strain,stress,-,Pa,23.0,0.009496578674466922,,air,,Synthetic curve,2026-02-02T18:45:01.437719,2026-02-02T18:45:01.437722
+342,208,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.437846,2026-02-02T18:45:01.437853
+343,209,stress_strain,strain,stress,-,Pa,23.0,0.0020711677689669076,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.438182,2026-02-02T18:45:01.438190
+344,209,creep,time,strain,s,-,142.05570377006876,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.438358,2026-02-02T18:45:01.438363
+345,210,stress_strain,strain,stress,-,Pa,23.0,0.005519070555996992,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.438785,2026-02-02T18:45:01.438792
+346,210,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.438917,2026-02-02T18:45:01.438923
+347,211,stress_strain,strain,stress,-,Pa,23.0,0.001819388335343243,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.439146,2026-02-02T18:45:01.439150
+348,211,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.439239,2026-02-02T18:45:01.439242
+349,211,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.439287,2026-02-02T18:45:01.439290
+350,213,stress_strain,strain,stress,-,Pa,23.0,0.0030718833851120517,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.439644,2026-02-02T18:45:01.439649
+351,214,stress_strain,strain,stress,-,Pa,23.0,0.00989084938977428,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.440058,2026-02-02T18:45:01.440071
+352,215,stress_strain,strain,stress,-,Pa,23.0,0.0013705786248608164,,air,,Synthetic curve,2026-02-02T18:45:01.440355,2026-02-02T18:45:01.440359
+353,215,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.440489,2026-02-02T18:45:01.440494
+354,216,stress_strain,strain,stress,-,Pa,23.0,0.0026381309810268694,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.440748,2026-02-02T18:45:01.440753
+355,216,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.440883,2026-02-02T18:45:01.440887
+356,217,stress_strain,strain,stress,-,Pa,23.0,0.009417267075251942,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.441115,2026-02-02T18:45:01.441122
+357,218,stress_strain,strain,stress,-,Pa,23.0,0.006018827785939187,,air,,Synthetic curve,2026-02-02T18:45:01.441473,2026-02-02T18:45:01.441479
+358,218,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.441613,2026-02-02T18:45:01.441617
+359,219,stress_strain,strain,stress,-,Pa,23.0,0.005714460889714971,,air,,Synthetic curve,2026-02-02T18:45:01.441884,2026-02-02T18:45:01.441891
+360,219,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.442072,2026-02-02T18:45:01.442079
+361,220,stress_strain,strain,stress,-,Pa,23.0,0.007286872188967266,,air,,Synthetic curve,2026-02-02T18:45:01.442381,2026-02-02T18:45:01.442385
+362,222,stress_strain,strain,stress,-,Pa,23.0,0.004353182832201167,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.442888,2026-02-02T18:45:01.442896
+363,222,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.443040,2026-02-02T18:45:01.443044
+364,223,stress_strain,strain,stress,-,Pa,23.0,0.005255283640965537,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.443446,2026-02-02T18:45:01.443452
+365,223,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.443562,2026-02-02T18:45:01.443565
+366,225,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.444044,2026-02-02T18:45:01.444049
+367,226,stress_strain,strain,stress,-,Pa,23.0,0.0008767943072280187,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.444310,2026-02-02T18:45:01.444314
+368,226,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.444419,2026-02-02T18:45:01.444423
+369,227,stress_strain,strain,stress,-,Pa,23.0,0.004929156172484823,,air,,Synthetic curve,2026-02-02T18:45:01.444694,2026-02-02T18:45:01.444698
+370,228,stress_strain,strain,stress,-,Pa,23.0,0.0071922831744639475,,air,,Synthetic curve,2026-02-02T18:45:01.445119,2026-02-02T18:45:01.445127
+371,229,stress_strain,strain,stress,-,Pa,23.0,0.0009345292462072749,,air,,Synthetic curve,2026-02-02T18:45:01.445435,2026-02-02T18:45:01.445439
+372,230,stress_strain,strain,stress,-,Pa,23.0,0.0088056805851108,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.445771,2026-02-02T18:45:01.445775
+373,230,creep,time,strain,s,-,143.2516894773799,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.445877,2026-02-02T18:45:01.445880
+374,231,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.446173,2026-02-02T18:45:01.446179
+375,231,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.446249,2026-02-02T18:45:01.446252
+376,232,stress_strain,strain,stress,-,Pa,23.0,0.0012356675362241011,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.446764,2026-02-02T18:45:01.446776
+377,232,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.446891,2026-02-02T18:45:01.446895
+378,232,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.446954,2026-02-02T18:45:01.446957
+379,233,stress_strain,strain,stress,-,Pa,23.0,0.008294280980440761,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.447274,2026-02-02T18:45:01.447279
+380,233,creep,time,strain,s,-,108.91508743044241,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.447434,2026-02-02T18:45:01.447439
+381,234,stress_strain,strain,stress,-,Pa,23.0,0.006736294161641378,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.449296,2026-02-02T18:45:01.449301
+382,235,stress_strain,strain,stress,-,Pa,23.0,0.006402352316931831,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.449678,2026-02-02T18:45:01.449687
+383,235,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.449868,2026-02-02T18:45:01.449874
+384,236,stress_strain,strain,stress,-,Pa,23.0,0.009182354042537299,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.450251,2026-02-02T18:45:01.450258
+385,236,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.450368,2026-02-02T18:45:01.450371
+386,236,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.450425,2026-02-02T18:45:01.450427
+387,237,stress_strain,strain,stress,-,Pa,23.0,0.009105847037473544,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.450667,2026-02-02T18:45:01.450671
+388,237,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.450827,2026-02-02T18:45:01.450834
+389,238,stress_strain,strain,stress,-,Pa,23.0,0.006092267382719404,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.451245,2026-02-02T18:45:01.451255
+390,238,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.451403,2026-02-02T18:45:01.451408
+391,239,stress_strain,strain,stress,-,Pa,23.0,0.009290662565526566,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.451665,2026-02-02T18:45:01.451669
+392,239,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.451774,2026-02-02T18:45:01.451776
+393,240,stress_strain,strain,stress,-,Pa,23.0,0.0015945986686314295,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.451958,2026-02-02T18:45:01.451961
+394,240,creep,time,strain,s,-,446.84799235606783,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.452072,2026-02-02T18:45:01.452075
+395,241,stress_strain,strain,stress,-,Pa,23.0,0.0023505289436580776,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.452349,2026-02-02T18:45:01.452355
+396,242,stress_strain,strain,stress,-,Pa,23.0,0.009430987862115442,,air,,Synthetic curve,2026-02-02T18:45:01.452672,2026-02-02T18:45:01.452676
+397,243,stress_strain,strain,stress,-,Pa,23.0,0.003912740319568396,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.452978,2026-02-02T18:45:01.452982
+398,243,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.453080,2026-02-02T18:45:01.453083
+399,243,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.453134,2026-02-02T18:45:01.453137
+400,244,stress_strain,strain,stress,-,Pa,23.0,0.007465841202692954,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.453295,2026-02-02T18:45:01.453298
+401,244,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.453439,2026-02-02T18:45:01.453445
+402,245,stress_strain,strain,stress,-,Pa,23.0,0.0025927728807007646,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.453702,2026-02-02T18:45:01.453706
+403,245,creep,time,strain,s,-,156.62698277038896,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.453818,2026-02-02T18:45:01.453821
+404,246,stress_strain,strain,stress,-,Pa,23.0,0.0011562847543980233,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.453990,2026-02-02T18:45:01.453994
+405,246,creep,time,strain,s,-,129.6330086432439,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.454112,2026-02-02T18:45:01.454115
+406,247,stress_strain,strain,stress,-,Pa,23.0,0.001134919144179525,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.466953,2026-02-02T18:45:01.466961
+407,247,creep,time,strain,s,-,450.797793600454,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.467107,2026-02-02T18:45:01.467113
+408,248,stress_strain,strain,stress,-,Pa,23.0,0.008536016133608638,,air,,Synthetic curve,2026-02-02T18:45:01.467472,2026-02-02T18:45:01.467480
+409,249,stress_strain,strain,stress,-,Pa,23.0,0.005561057650032436,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.468059,2026-02-02T18:45:01.468070
+410,250,creep,time,strain,s,-,610.3930417685967,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.468530,2026-02-02T18:45:01.468542
+411,251,stress_strain,strain,stress,-,Pa,23.0,0.00962598141364263,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.468864,2026-02-02T18:45:01.468872
+412,251,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.469071,2026-02-02T18:45:01.469077
+413,251,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.469164,2026-02-02T18:45:01.469171
+414,252,stress_strain,strain,stress,-,Pa,23.0,0.008305397724845459,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.469631,2026-02-02T18:45:01.469640
+415,252,creep,time,strain,s,-,67.70197682990437,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.469827,2026-02-02T18:45:01.469835
+416,252,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.469914,2026-02-02T18:45:01.469918
+417,253,stress_strain,strain,stress,-,Pa,23.0,0.000880196618891331,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.470299,2026-02-02T18:45:01.470306
+418,254,stress_strain,strain,stress,-,Pa,23.0,0.005491774822372069,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.470684,2026-02-02T18:45:01.470690
+419,254,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.470878,2026-02-02T18:45:01.470884
+420,256,stress_strain,strain,stress,-,Pa,23.0,0.005153758587326686,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.471450,2026-02-02T18:45:01.471455
+421,256,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.471593,2026-02-02T18:45:01.471604
+422,256,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.471703,2026-02-02T18:45:01.471708
+423,257,stress_strain,strain,stress,-,Pa,23.0,0.0011960585436499303,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.471986,2026-02-02T18:45:01.471994
+424,257,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.472121,2026-02-02T18:45:01.472125
+425,258,stress_strain,strain,stress,-,Pa,23.0,0.008329345284993956,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.472453,2026-02-02T18:45:01.472462
+426,259,stress_strain,strain,stress,-,Pa,23.0,0.002836454599457548,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.472879,2026-02-02T18:45:01.472885
+427,260,stress_strain,strain,stress,-,Pa,23.0,0.008224810739011018,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.473308,2026-02-02T18:45:01.473315
+428,261,stress_strain,strain,stress,-,Pa,23.0,0.0030889888564794017,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.473829,2026-02-02T18:45:01.473838
+429,262,stress_strain,strain,stress,-,Pa,23.0,0.003502511238161948,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.474106,2026-02-02T18:45:01.474113
+430,263,stress_strain,strain,stress,-,Pa,23.0,0.006473655899413387,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.474596,2026-02-02T18:45:01.474604
+431,263,creep,time,strain,s,-,84.3639963141326,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.474741,2026-02-02T18:45:01.474748
+432,263,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.474812,2026-02-02T18:45:01.474815
+433,264,stress_strain,strain,stress,-,Pa,23.0,0.0061240776512186705,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.475000,2026-02-02T18:45:01.475007
+434,264,creep,time,strain,s,-,63.58719119514578,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.475416,2026-02-02T18:45:01.475422
+435,266,stress_strain,strain,stress,-,Pa,23.0,0.0016551368490834726,,air,,Synthetic curve,2026-02-02T18:45:01.475869,2026-02-02T18:45:01.475877
+436,267,stress_strain,strain,stress,-,Pa,23.0,0.004335243345976913,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.476216,2026-02-02T18:45:01.476224
+437,267,creep,time,strain,s,-,157.73080962369227,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.476363,2026-02-02T18:45:01.476368
+438,267,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.476444,2026-02-02T18:45:01.476453
+439,268,stress_strain,strain,stress,-,Pa,23.0,0.009640274536170487,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.476823,2026-02-02T18:45:01.476830
+440,268,creep,time,strain,s,-,74.5194341521644,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.476994,2026-02-02T18:45:01.477002
+441,268,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.477085,2026-02-02T18:45:01.477089
+442,269,stress_strain,strain,stress,-,Pa,23.0,0.004904443422361907,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.477368,2026-02-02T18:45:01.477377
+443,269,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.477487,2026-02-02T18:45:01.477490
+444,269,creep,time,strain,s,-,586.39726790308,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.477564,2026-02-02T18:45:01.477569
+445,270,stress_strain,strain,stress,-,Pa,23.0,0.008406486575807292,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.477853,2026-02-02T18:45:01.477859
+446,270,creep,time,strain,s,-,92.359367869575,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.478340,2026-02-02T18:45:01.478349
+447,271,creep,time,strain,s,-,120.24727841125402,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.478663,2026-02-02T18:45:01.478670
+448,271,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.478729,2026-02-02T18:45:01.478732
+449,272,stress_strain,strain,stress,-,Pa,23.0,0.0074428024875055065,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.479058,2026-02-02T18:45:01.479065
+450,272,creep,time,strain,s,-,68.65440628591972,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.479280,2026-02-02T18:45:01.479289
+451,273,stress_strain,strain,stress,-,Pa,23.0,0.005693326087688211,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.479621,2026-02-02T18:45:01.479634
+452,274,stress_strain,strain,stress,-,Pa,23.0,0.0045843981906480424,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.480132,2026-02-02T18:45:01.480142
+453,274,creep,time,strain,s,-,444.4151427047802,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.480630,2026-02-02T18:45:01.480664
+454,275,stress_strain,strain,stress,-,Pa,23.0,0.007189979158414773,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.481168,2026-02-02T18:45:01.481179
+455,275,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.481360,2026-02-02T18:45:01.481387
+456,275,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.481482,2026-02-02T18:45:01.481487
+457,276,stress_strain,strain,stress,-,Pa,23.0,0.00014343067697967468,,air,,Synthetic curve,2026-02-02T18:45:01.481887,2026-02-02T18:45:01.481893
+458,276,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.482229,2026-02-02T18:45:01.482242
+459,277,creep,time,strain,s,-,60.983007174224625,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.482583,2026-02-02T18:45:01.482589
+460,277,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.482648,2026-02-02T18:45:01.482651
+461,278,stress_strain,strain,stress,-,Pa,23.0,0.0003549457769578651,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.482889,2026-02-02T18:45:01.482893
+462,278,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.483032,2026-02-02T18:45:01.483037
+463,279,stress_strain,strain,stress,-,Pa,23.0,0.0030330547322514885,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.483284,2026-02-02T18:45:01.483288
+464,280,stress_strain,strain,stress,-,Pa,23.0,0.0014147144670120066,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.483608,2026-02-02T18:45:01.483615
+465,280,creep,time,strain,s,-,110.49846294959887,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.483753,2026-02-02T18:45:01.483761
+466,281,stress_strain,strain,stress,-,Pa,23.0,0.005766668886506162,,air,,Synthetic curve,2026-02-02T18:45:01.484038,2026-02-02T18:45:01.484042
+467,282,stress_strain,strain,stress,-,Pa,23.0,0.0062469240006510105,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.484363,2026-02-02T18:45:01.484367
+468,282,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.484517,2026-02-02T18:45:01.484529
+469,282,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.484585,2026-02-02T18:45:01.484588
+470,283,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.484921,2026-02-02T18:45:01.484927
+471,284,stress_strain,strain,stress,-,Pa,23.0,0.000703175198203959,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.485199,2026-02-02T18:45:01.485204
+472,285,stress_strain,strain,stress,-,Pa,23.0,0.0030971188125930834,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.485533,2026-02-02T18:45:01.485541
+473,285,creep,time,strain,s,-,675.9620531651667,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.485672,2026-02-02T18:45:01.485676
+474,286,stress_strain,strain,stress,-,Pa,23.0,0.003370880726918487,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.485968,2026-02-02T18:45:01.485979
+475,286,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.486093,2026-02-02T18:45:01.486096
+476,287,stress_strain,strain,stress,-,Pa,23.0,0.0093687664066626,,air,,Synthetic curve,2026-02-02T18:45:01.486483,2026-02-02T18:45:01.486491
+477,287,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.486597,2026-02-02T18:45:01.486600
+478,288,stress_strain,strain,stress,-,Pa,23.0,0.004433373049144623,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.486926,2026-02-02T18:45:01.486933
+479,288,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.487113,2026-02-02T18:45:01.487118
+480,288,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.487179,2026-02-02T18:45:01.487182
+481,289,stress_strain,strain,stress,-,Pa,23.0,0.004163185417989542,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.487372,2026-02-02T18:45:01.487377
+482,290,stress_strain,strain,stress,-,Pa,23.0,0.00879433622107217,,air,,Synthetic curve,2026-02-02T18:45:01.487732,2026-02-02T18:45:01.487738
+483,291,stress_strain,strain,stress,-,Pa,23.0,0.006689183670513563,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.488125,2026-02-02T18:45:01.488134
+484,292,stress_strain,strain,stress,-,Pa,23.0,0.009872637729118932,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.488460,2026-02-02T18:45:01.488465
+485,293,stress_strain,strain,stress,-,Pa,23.0,0.008132878602645105,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.489020,2026-02-02T18:45:01.489027
+486,293,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.489477,2026-02-02T18:45:01.489485
+487,294,stress_strain,strain,stress,-,Pa,23.0,0.009837464524185137,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.489813,2026-02-02T18:45:01.489818
+488,294,creep,time,strain,s,-,81.96807402790398,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.489932,2026-02-02T18:45:01.489935
+489,295,stress_strain,strain,stress,-,Pa,23.0,0.005825858080258053,,air,,Synthetic curve,2026-02-02T18:45:01.490516,2026-02-02T18:45:01.490521
+490,296,stress_strain,strain,stress,-,Pa,23.0,0.009687942681907983,,air,,Synthetic curve,2026-02-02T18:45:01.490748,2026-02-02T18:45:01.490752
+491,296,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.490804,2026-02-02T18:45:01.490807
+492,297,stress_strain,strain,stress,-,Pa,23.0,0.006703429606777992,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.491036,2026-02-02T18:45:01.491041
+493,297,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.491141,2026-02-02T18:45:01.491144
+494,297,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.491247,2026-02-02T18:45:01.491252
+495,298,stress_strain,strain,stress,-,Pa,23.0,0.009023680626767705,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.491577,2026-02-02T18:45:01.491590
+496,299,stress_strain,strain,stress,-,Pa,23.0,0.008474299744502074,,air,,Synthetic curve,2026-02-02T18:45:01.491927,2026-02-02T18:45:01.491931
+497,301,stress_strain,strain,stress,-,Pa,23.0,0.0046872418348245515,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.492512,2026-02-02T18:45:01.492517
+498,301,creep,time,strain,s,-,95.34187629275037,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.492630,2026-02-02T18:45:01.492633
+499,302,stress_strain,strain,stress,-,Pa,23.0,0.0014880220345948319,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.492933,2026-02-02T18:45:01.492937
+500,302,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.493040,2026-02-02T18:45:01.493043
+501,302,creep,time,strain,s,-,689.9409100856035,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.493105,2026-02-02T18:45:01.493108
+502,303,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.493338,2026-02-02T18:45:01.493342
+503,304,stress_strain,strain,stress,-,Pa,23.0,0.005185233300428849,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.493663,2026-02-02T18:45:01.493668
+504,304,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.493828,2026-02-02T18:45:01.493836
+505,304,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.493944,2026-02-02T18:45:01.493950
+506,305,stress_strain,strain,stress,-,Pa,23.0,0.0010297679125843158,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.494211,2026-02-02T18:45:01.494218
+507,305,creep,time,strain,s,-,525.1928570952659,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.494332,2026-02-02T18:45:01.494336
+508,306,stress_strain,strain,stress,-,Pa,23.0,0.007410724883180721,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.494578,2026-02-02T18:45:01.494581
+509,307,stress_strain,strain,stress,-,Pa,23.0,0.004515753248646305,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.494849,2026-02-02T18:45:01.494853
+510,307,creep,time,strain,s,-,108.86664069908326,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.495006,2026-02-02T18:45:01.495012
+511,307,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.495069,2026-02-02T18:45:01.495072
+512,308,stress_strain,strain,stress,-,Pa,23.0,0.0018393874580354315,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.495367,2026-02-02T18:45:01.495380
+513,308,creep,time,strain,s,-,534.4874109676149,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.495568,2026-02-02T18:45:01.495577
+514,309,stress_strain,strain,stress,-,Pa,23.0,0.0058286905295248685,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.495927,2026-02-02T18:45:01.495932
+515,310,stress_strain,strain,stress,-,Pa,23.0,0.006804421463062721,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.496571,2026-02-02T18:45:01.496578
+516,310,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.496689,2026-02-02T18:45:01.496692
+517,310,creep,time,strain,s,-,706.4546570349961,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.496748,2026-02-02T18:45:01.496751
+518,311,stress_strain,strain,stress,-,Pa,23.0,0.008119584480912738,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.497439,2026-02-02T18:45:01.497445
+519,311,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.497638,2026-02-02T18:45:01.497647
+520,311,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.497741,2026-02-02T18:45:01.497747
+521,312,stress_strain,strain,stress,-,Pa,23.0,0.0016610690732793193,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.498619,2026-02-02T18:45:01.498644
+522,312,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.498790,2026-02-02T18:45:01.498796
+523,313,stress_strain,strain,stress,-,Pa,23.0,0.0073375560731334805,,air,,Synthetic curve,2026-02-02T18:45:01.499186,2026-02-02T18:45:01.499190
+524,314,stress_strain,strain,stress,-,Pa,23.0,0.009944227506019143,,air,,Synthetic curve,2026-02-02T18:45:01.499487,2026-02-02T18:45:01.499491
+525,314,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.499561,2026-02-02T18:45:01.499564
+526,315,stress_strain,strain,stress,-,Pa,23.0,0.006758460934496465,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.499813,2026-02-02T18:45:01.499818
+527,315,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.499921,2026-02-02T18:45:01.499924
+528,316,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.500173,2026-02-02T18:45:01.500179
+529,317,stress_strain,strain,stress,-,Pa,23.0,0.004896895497730972,,air,,Synthetic curve,2026-02-02T18:45:01.500446,2026-02-02T18:45:01.500450
+530,317,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.500575,2026-02-02T18:45:01.500579
+531,318,stress_strain,strain,stress,-,Pa,23.0,0.007967198871427961,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.500806,2026-02-02T18:45:01.500810
+532,318,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.501403,2026-02-02T18:45:01.501415
+533,318,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.501485,2026-02-02T18:45:01.501489
+534,319,stress_strain,strain,stress,-,Pa,23.0,0.006132570463779433,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.501880,2026-02-02T18:45:01.501886
+535,319,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.502004,2026-02-02T18:45:01.502008
+536,320,stress_strain,strain,stress,-,Pa,23.0,0.0076429799041522915,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.503208,2026-02-02T18:45:01.503229
+537,320,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.503457,2026-02-02T18:45:01.503465
+538,321,stress_strain,strain,stress,-,Pa,23.0,0.0068186539311091586,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.503886,2026-02-02T18:45:01.503894
+539,322,stress_strain,strain,stress,-,Pa,23.0,0.005385030973435116,,air,,Synthetic curve,2026-02-02T18:45:01.504437,2026-02-02T18:45:01.504444
+540,322,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.504715,2026-02-02T18:45:01.504725
+541,323,stress_strain,strain,stress,-,Pa,23.0,0.00924090330967211,,air,,Synthetic curve,2026-02-02T18:45:01.505099,2026-02-02T18:45:01.505110
+542,324,stress_strain,strain,stress,-,Pa,23.0,0.0009450326887746966,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.505469,2026-02-02T18:45:01.505473
+543,324,creep,time,strain,s,-,109.30322942771546,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.505584,2026-02-02T18:45:01.505587
+544,325,stress_strain,strain,stress,-,Pa,23.0,0.003635314425362073,,air,,Synthetic curve,2026-02-02T18:45:01.505886,2026-02-02T18:45:01.505892
+545,326,creep,time,strain,s,-,153.10862706859473,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.506233,2026-02-02T18:45:01.506238
+546,326,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.506306,2026-02-02T18:45:01.506312
+547,327,stress_strain,strain,stress,-,Pa,23.0,0.009428692133570967,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.506646,2026-02-02T18:45:01.506651
+548,327,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.506778,2026-02-02T18:45:01.506787
+549,328,stress_strain,strain,stress,-,Pa,23.0,0.004665967451344913,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.507395,2026-02-02T18:45:01.507403
+550,328,creep,time,strain,s,-,90.52330787176413,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.507539,2026-02-02T18:45:01.507544
+551,329,stress_strain,strain,stress,-,Pa,23.0,0.0032925643222346274,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.507851,2026-02-02T18:45:01.507859
+552,329,creep,time,strain,s,-,113.27209208282653,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.508008,2026-02-02T18:45:01.508012
+553,329,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.508057,2026-02-02T18:45:01.508059
+554,330,stress_strain,strain,stress,-,Pa,23.0,0.0014805854599494147,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.508488,2026-02-02T18:45:01.508495
+555,330,creep,time,strain,s,-,65.44536875337684,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.508692,2026-02-02T18:45:01.508703
+556,331,stress_strain,strain,stress,-,Pa,23.0,0.0001211838486833284,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.509088,2026-02-02T18:45:01.509098
+557,331,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.509195,2026-02-02T18:45:01.509199
+558,331,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.509278,2026-02-02T18:45:01.509282
+559,332,stress_strain,strain,stress,-,Pa,23.0,0.0028749421653256548,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.509489,2026-02-02T18:45:01.509492
+560,332,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.509581,2026-02-02T18:45:01.509584
+561,332,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.509649,2026-02-02T18:45:01.509653
+562,333,stress_strain,strain,stress,-,Pa,23.0,0.005875293804115931,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.509793,2026-02-02T18:45:01.509800
+563,334,stress_strain,strain,stress,-,Pa,23.0,0.005692258704593989,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.510074,2026-02-02T18:45:01.510078
+564,335,stress_strain,strain,stress,-,Pa,23.0,0.0030053365889824092,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.510504,2026-02-02T18:45:01.510508
+565,335,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.510856,2026-02-02T18:45:01.510869
+566,336,stress_strain,strain,stress,-,Pa,23.0,0.0047411019863705705,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.511321,2026-02-02T18:45:01.511331
+567,337,stress_strain,strain,stress,-,Pa,23.0,0.0016133427691613763,,air,,Synthetic curve,2026-02-02T18:45:01.511950,2026-02-02T18:45:01.511960
+568,338,stress_strain,strain,stress,-,Pa,23.0,0.005402220732937349,,air,,Synthetic curve,2026-02-02T18:45:01.512521,2026-02-02T18:45:01.512529
+569,339,stress_strain,strain,stress,-,Pa,23.0,0.0026954202941961553,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.512878,2026-02-02T18:45:01.512882
+570,339,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.512993,2026-02-02T18:45:01.512997
+571,339,creep,time,strain,s,-,671.7299245151172,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.513052,2026-02-02T18:45:01.513055
+572,340,stress_strain,strain,stress,-,Pa,23.0,0.008001864578935836,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.513304,2026-02-02T18:45:01.513309
+573,340,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.513413,2026-02-02T18:45:01.513415
+574,341,stress_strain,strain,stress,-,Pa,23.0,0.0002687729541495847,,air,,Synthetic curve,2026-02-02T18:45:01.513736,2026-02-02T18:45:01.513744
+575,341,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.513935,2026-02-02T18:45:01.513943
+576,342,stress_strain,strain,stress,-,Pa,23.0,0.00608436900815417,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.514239,2026-02-02T18:45:01.514245
+577,342,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.514353,2026-02-02T18:45:01.514356
+578,343,stress_strain,strain,stress,-,Pa,23.0,0.006769773914895539,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.514604,2026-02-02T18:45:01.514608
+579,343,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.514710,2026-02-02T18:45:01.514713
+580,344,stress_strain,strain,stress,-,Pa,23.0,0.0007209408272172868,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.514893,2026-02-02T18:45:01.514897
+581,344,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.515029,2026-02-02T18:45:01.515034
+582,346,stress_strain,strain,stress,-,Pa,23.0,0.005449326043272061,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.515518,2026-02-02T18:45:01.515522
+583,346,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.515674,2026-02-02T18:45:01.515686
+584,346,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.515791,2026-02-02T18:45:01.515796
+585,347,stress_strain,strain,stress,-,Pa,23.0,0.00845444584858647,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.516042,2026-02-02T18:45:01.516046
+586,347,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.516152,2026-02-02T18:45:01.516155
+587,348,stress_strain,strain,stress,-,Pa,23.0,0.008418783499070832,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.516468,2026-02-02T18:45:01.516478
+588,348,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.516667,2026-02-02T18:45:01.516676
+589,348,creep,time,strain,s,-,445.4870953955632,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.516761,2026-02-02T18:45:01.516768
+590,349,stress_strain,strain,stress,-,Pa,23.0,0.003146521159651106,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.517175,2026-02-02T18:45:01.517183
+591,349,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.517339,2026-02-02T18:45:01.517344
+592,350,stress_strain,strain,stress,-,Pa,23.0,0.007115564907945701,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.517576,2026-02-02T18:45:01.517584
+593,350,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.517753,2026-02-02T18:45:01.517760
+594,351,stress_strain,strain,stress,-,Pa,23.0,0.0016254457652827984,,air,,Synthetic curve,2026-02-02T18:45:01.518255,2026-02-02T18:45:01.518262
+595,351,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.518365,2026-02-02T18:45:01.518368
+596,352,stress_strain,strain,stress,-,Pa,23.0,0.002278324601914375,,air,,Synthetic curve,2026-02-02T18:45:01.518572,2026-02-02T18:45:01.518579
+597,353,stress_strain,strain,stress,-,Pa,23.0,0.0012476981513935498,,air,,Synthetic curve,2026-02-02T18:45:01.519045,2026-02-02T18:45:01.519055
+598,353,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.519176,2026-02-02T18:45:01.519179
+599,354,stress_strain,strain,stress,-,Pa,23.0,0.008609601398876218,,air,,Synthetic curve,2026-02-02T18:45:01.519406,2026-02-02T18:45:01.519410
+600,355,stress_strain,strain,stress,-,Pa,23.0,0.006185668346071816,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.519721,2026-02-02T18:45:01.519725
+601,355,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.519827,2026-02-02T18:45:01.519830
+602,355,creep,time,strain,s,-,471.5099696388235,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.519894,2026-02-02T18:45:01.519896
+603,356,stress_strain,strain,stress,-,Pa,23.0,0.0066074211718033255,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.520189,2026-02-02T18:45:01.520193
+604,357,stress_strain,strain,stress,-,Pa,23.0,0.00815599066211999,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.520503,2026-02-02T18:45:01.520508
+605,358,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.520903,2026-02-02T18:45:01.520913
+606,359,stress_strain,strain,stress,-,Pa,23.0,0.008382507362131333,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.521373,2026-02-02T18:45:01.521381
+607,359,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.521523,2026-02-02T18:45:01.521527
+608,360,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.521743,2026-02-02T18:45:01.521747
+609,361,stress_strain,strain,stress,-,Pa,23.0,0.009414214363759577,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.522017,2026-02-02T18:45:01.522025
+610,361,creep,time,strain,s,-,96.6379634832004,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.522860,2026-02-02T18:45:01.522884
+611,362,stress_strain,strain,stress,-,Pa,23.0,0.009649705899739763,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.523309,2026-02-02T18:45:01.523317
+612,363,stress_strain,strain,stress,-,Pa,23.0,0.0029666938957674037,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.523838,2026-02-02T18:45:01.523844
+613,364,stress_strain,strain,stress,-,Pa,23.0,0.007451955467711065,,air,,Synthetic curve,2026-02-02T18:45:01.524178,2026-02-02T18:45:01.524184
+614,365,stress_strain,strain,stress,-,Pa,23.0,0.004949212298138425,,air,,Synthetic curve,2026-02-02T18:45:01.524604,2026-02-02T18:45:01.524608
+615,365,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.525344,2026-02-02T18:45:01.525349
+616,366,stress_strain,strain,stress,-,Pa,23.0,0.00932466851171118,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.526047,2026-02-02T18:45:01.526053
+617,366,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.526252,2026-02-02T18:45:01.526261
+618,367,stress_strain,strain,stress,-,Pa,23.0,0.006099496108905823,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.526684,2026-02-02T18:45:01.526691
+619,367,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.526819,2026-02-02T18:45:01.526825
+620,368,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.527048,2026-02-02T18:45:01.527051
+621,369,stress_strain,strain,stress,-,Pa,23.0,0.0013321999424419967,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.527232,2026-02-02T18:45:01.527235
+622,371,stress_strain,strain,stress,-,Pa,23.0,0.006038375844724274,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.527668,2026-02-02T18:45:01.527673
+623,371,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.527766,2026-02-02T18:45:01.527768
+624,372,stress_strain,strain,stress,-,Pa,23.0,0.009447294662849206,,air,,Synthetic curve,2026-02-02T18:45:01.527967,2026-02-02T18:45:01.527971
+625,372,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.528108,2026-02-02T18:45:01.528115
+626,373,stress_strain,strain,stress,-,Pa,23.0,0.0023818830640934996,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.528419,2026-02-02T18:45:01.528423
+627,374,stress_strain,strain,stress,-,Pa,23.0,0.009867250689062947,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.528707,2026-02-02T18:45:01.528710
+628,374,creep,time,strain,s,-,100.57013593025422,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.528810,2026-02-02T18:45:01.528812
+629,375,stress_strain,strain,stress,-,Pa,23.0,0.0016265197170770953,,air,ISO 527,Synthetic curve,2026-02-02T18:45:01.529044,2026-02-02T18:45:01.529052
+630,375,creep,time,strain,s,-,82.20707123132811,,,air,ISO 899-1,Synthetic creep curve,2026-02-02T18:45:01.529175,2026-02-02T18:45:01.529179
+631,375,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.529234,2026-02-02T18:45:01.529237
+632,376,stress_strain,strain,stress,-,Pa,23.0,0.001231162856945293,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.529552,2026-02-02T18:45:01.529556
+633,376,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.529667,2026-02-02T18:45:01.529670
+634,377,stress_strain,strain,stress,-,Pa,23.0,0.0011045836859144744,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.529993,2026-02-02T18:45:01.529998
+635,378,stress_strain,strain,stress,-,Pa,23.0,0.0057823923141002995,,air,,Synthetic curve,2026-02-02T18:45:01.530305,2026-02-02T18:45:01.530309
+636,378,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.530407,2026-02-02T18:45:01.530413
+637,379,stress_strain,strain,stress,-,Pa,23.0,0.008225305930014089,,air,,Synthetic curve,2026-02-02T18:45:01.530680,2026-02-02T18:45:01.530684
+638,379,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.530784,2026-02-02T18:45:01.530787
+639,380,stress_strain,strain,stress,-,Pa,23.0,0.00899687609795092,,air,,Synthetic curve,2026-02-02T18:45:01.530955,2026-02-02T18:45:01.530959
+640,381,stress_strain,strain,stress,-,Pa,23.0,0.0044310083728936155,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.531247,2026-02-02T18:45:01.531251
+641,382,stress_strain,strain,stress,-,Pa,23.0,0.009376933412000979,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.531532,2026-02-02T18:45:01.531581
+642,382,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.531725,2026-02-02T18:45:01.531730
+643,382,creep,time,strain,s,-,573.7730616529702,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.531792,2026-02-02T18:45:01.531795
+644,382,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.531846,2026-02-02T18:45:01.531849
+645,383,k_vs_T,temperature,thermal_conductivity,C,W/mK,,,,air,,Synthetic k(T),2026-02-02T18:45:01.532085,2026-02-02T18:45:01.532089
+646,384,stress_strain,strain,stress,-,Pa,23.0,0.007427522396000149,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.532307,2026-02-02T18:45:01.532310
+647,384,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.532425,2026-02-02T18:45:01.532427
+648,384,creep,time,strain,s,-,624.5320423003001,,,air,ASTM E139,Synthetic creep curve,2026-02-02T18:45:01.532500,2026-02-02T18:45:01.532503
+649,385,stress_strain,strain,stress,-,Pa,23.0,0.001905281056554649,,air,ASTM E8,Synthetic curve,2026-02-02T18:45:01.532738,2026-02-02T18:45:01.532744
+650,385,sn,cycles,stress_amplitude,cycles,Pa,23.0,,,air,ASTM E466,Synthetic S–N curve,2026-02-02T18:45:01.532844,2026-02-02T18:45:01.532846
